@@ -84,6 +84,13 @@ const data = [{
         thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+    },
+    {
+        title: 'Paragraph Added to the Data Array',
+        date: 'Feb 17th, 2020',
+        firstParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. ',
+        secondParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. ',
+        thirdParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. '
     }
 ];
 
@@ -139,6 +146,7 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
     articlePone.textContent = firstParagraph;
     articlePtwo.textContent = secondParagraph;
     articlePthree.textContent = thirdParagraph;
+    articleButton.textContent = "expand";
 
     //Step 2:
     articleButton.addEventListener('click', event => {
@@ -146,5 +154,12 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
     })
 
     //Step 3:
-    return createArticle;
+    return newArticle;
 }
+
+const articles = document.querySelector('.articles');
+
+//Step 4:
+data.forEach(articleData => {
+    articles.append(createArticle(articleData.title, articleData.date, articleData.firstParagraph, articleData.secondParagraph, articleData.thirdParagraph))
+})
