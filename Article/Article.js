@@ -86,11 +86,25 @@ const data = [{
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
     },
     {
-        title: 'Paragraph Added to the Data Array',
+        title: 'Article Added to the Data Array',
         date: 'Feb 17th, 2020',
         firstParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. ',
         secondParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. ',
         thirdParagraph: 'This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. This is my added paragraph for step five. '
+    },
+    {
+        title: 'Second Article Added to the Data Array',
+        date: 'Feb 17th, 2020',
+        firstParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.',
+        secondParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.',
+        thirdParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.'
+    },
+    {
+        title: 'Additional Article Added to the Data Array',
+        date: 'Feb 17th, 2020',
+        firstParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.',
+        secondParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.',
+        thirdParagraph: 'This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.This is a paragraph that was added for part two of the project. I see that as soon as I add an additoinal object to the array, the styling and functionality is automatically added to my new article.'
     }
 ];
 
